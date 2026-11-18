@@ -1,0 +1,15 @@
+package_id,package_name,package_type,destination,nights,includes_car,price_pp,cost_pp
+PK-01,Washington DC — Cherry Blossom Weekend,City break,Washington DC,3,0,489.0,352.0
+PK-02,New York — Broadway Getaway,City break,New York,4,0,799.0,598.0
+PK-03,Boston — History Trail,City break,Boston,3,0,529.0,381.0
+PK-04,Miami — Beach Escape,Beach,Miami,5,0,899.0,640.0
+PK-05,Orlando — Family Fun Pass,Family,Orlando,6,1,1190.0,864.0
+PK-06,Nashville — Music Weekend,City break,Nashville,3,0,549.0,396.0
+PK-07,Chicago — Architecture & Lakefront,City break,Chicago,4,0,659.0,475.0
+PK-08,Denver — Rockies Road Trip,Adventure,Denver,7,1,1380.0,1002.0
+PK-09,Washington DC — Business Summit Pass,Business,Washington DC,2,1,619.0,450.0
+PK-10,Miami — Spring Break Hostel Bundle,Student,Miami,5,0,429.0,322.0
+PK-11,Boston — Fall Foliage Drive,Adventure,Boston,4,1,879.0,631.0
+PK-12,Orlando — Theme-Park Duo,Family,Orlando,4,0,749.0,553.0
+PK-13,Chicago Business Express,Business,Chicago,2,1,579.0,424.0
+PK-14,Denver — Ski Weekend,Adventure,Denver,3,0,699.0,505.0
