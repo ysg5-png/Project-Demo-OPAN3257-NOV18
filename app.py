@@ -9,7 +9,7 @@ st.caption("Simulated data. Every number below comes from a query in our Colab n
 
 @st.cache_data
 def load(name):
-    return pd.read_csv(f"data/{name}.csv")
+    return pd.read_csv(f"{name}.csv")
 
 
 revenue = load("revenue_by_type")          # pattern 1: a CSV exported from Colab
@@ -19,8 +19,8 @@ segments = load("segment_vs_company")
 # pattern 2: run the SQL right here with DuckDB, straight over the raw CSV files
 check = duckdb.sql("""
     SELECT COUNT(*) AS stays, ROUND(SUM(b.total), 2) AS revenue
-    FROM 'data/voyages_bookings.csv' b
-    JOIN 'data/voyages_properties.csv' p ON p.property_id = b.property_id
+    FROM 'voyages_bookings.csv' b
+    JOIN 'voyages_properties.csv' p ON p.property_id = b.property_id
     WHERE b.status = 'completed'
 """).df().iloc[0]
 
